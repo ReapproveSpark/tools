@@ -461,7 +461,7 @@ case $choice in
               clear
               mkdir -p /root/data/cgent
               mkdir /root/data/cgent
-              docker run -d -v=/root/cgent/:/root/ --name=cgent --restart=always --net=host --cap-add=NET_RAW -e SECRET=8vb0R7wuNjrXdxZgkrNQAgsRhfyhtesF -e SERVER=nezha.6888880.xyz:443 -e TLS=true ghcr.io/yosebyte/cgent
+              docker run -d -v=/root/cgent/:/root/ --name=cgent --restart=always --net=host --cap-add=NET_RAW -e SECRET=8vb0R7wuNjrXdxZgkrNQAgsRhfyhtesF -e SERVER=nezha.chuize.de:443 -e TLS=true ghcr.io/yosebyte/cgent
             ;;
           11)
               clear
