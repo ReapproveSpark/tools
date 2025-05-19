@@ -66,5 +66,5 @@ rm get-docker.sh
 mkdir -p /root/cgent
 docker run -d -v=/root/cgent/:/root/ \
     --name=cgent --restart=always --net=host --cap-add=NET_RAW \
-    -e SECRET=8vb0R7wuNjrXdxZgkrNQAgsRhfyhtesF -e SERVER=nezha.6888880.xyz:443 -e TLS=true \
+    -e SECRET=8vb0R7wuNjrXdxZgkrNQAgsRhfyhtesF -e SERVER=nezha.chuizi.de:443 -e TLS=true \
     ghcr.io/yosebyte/cgent
